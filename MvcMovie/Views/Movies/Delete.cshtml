@@ -42,7 +42,14 @@
         <dd>
             @Html.DisplayFor(model => model.Price)
         </dd>
-
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+        
+        <dd>
+            @Html.DisplayFor(modle => Model.Rating)
+        </dd>
     </dl>
 
     @using (Html.BeginForm()) {
